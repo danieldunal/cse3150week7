@@ -7,7 +7,7 @@
 
 using namespace std;
 
-bool perfect_num(int given_int){
+bool perfect_num(int &given_int){
     if (given_int <= 0) {
         return false;
     }
